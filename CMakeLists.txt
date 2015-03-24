@@ -8,6 +8,6 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable (scan_viz_demo scan_viz_demo.cpp)
+add_executable (scan_viz_demo src/scan_viz_demo.cpp)
 target_link_libraries (scan_viz_demo ${PCL_LIBRARIES})
 
